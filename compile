@@ -1,0 +1,4 @@
+javac -d build/java/ src/*.java
+lndir ../build/java/ jar/
+lndir ../../../images/ jar/logicsim/images/
+jar -cfm LogicSim.jar MANIFEST.MF -C jar logicsim/
